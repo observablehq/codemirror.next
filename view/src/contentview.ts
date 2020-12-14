@@ -1,4 +1,4 @@
-import {Text} from "@codemirror/next/text"
+import {Text} from "@observablehq/codemirror-next/text"
 import {Rect, maxOffset, domIndex} from "./dom"
 import {EditorView} from "./editorview"
 

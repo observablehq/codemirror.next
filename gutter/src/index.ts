@@ -1,6 +1,6 @@
-import {EditorView, ViewPlugin, PluginField, ViewUpdate, BlockType, BlockInfo, themeClass, Direction} from "@codemirror/next/view"
-import {Range, RangeValue, RangeSet, RangeCursor} from "@codemirror/next/rangeset"
-import {combineConfig, MapMode, Facet, Extension, EditorState} from "@codemirror/next/state"
+import {EditorView, ViewPlugin, PluginField, ViewUpdate, BlockType, BlockInfo, themeClass, Direction} from "@observablehq/codemirror-next/view"
+import {Range, RangeValue, RangeSet, RangeCursor} from "@observablehq/codemirror-next/rangeset"
+import {combineConfig, MapMode, Facet, Extension, EditorState} from "@observablehq/codemirror-next/state"
 
 /// A gutter marker represents a bit of information attached to a line
 /// in a specific gutter. Your own custom markers have to extend this

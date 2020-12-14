@@ -1,8 +1,8 @@
-import {Extension} from "@codemirror/next/state"
-import {Language, defineLanguageFacet, languageDataProp, foldNodeProp} from "@codemirror/next/language"
-import {styleTags, tags as t} from "@codemirror/next/highlight"
+import {Extension} from "@observablehq/codemirror-next/state"
+import {Language, defineLanguageFacet, languageDataProp, foldNodeProp} from "@observablehq/codemirror-next/language"
+import {styleTags, tags as t} from "@observablehq/codemirror-next/highlight"
 import {parser} from "lezer-markdown"
-import {htmlLanguage} from "@codemirror/next/lang-html"
+import {htmlLanguage} from "@observablehq/codemirror-next/lang-html"
 
 // FIXME add indentation (and possibly continue-list) support
 

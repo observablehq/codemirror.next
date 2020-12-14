@@ -1,7 +1,7 @@
-import {combineConfig, EditorState, Facet, StateField, Extension} from "@codemirror/next/state"
-import {syntaxTree} from "@codemirror/next/language"
-import {EditorView, themeClass} from "@codemirror/next/view"
-import {Decoration, DecorationSet} from "@codemirror/next/view"
+import {combineConfig, EditorState, Facet, StateField, Extension} from "@observablehq/codemirror-next/state"
+import {syntaxTree} from "@observablehq/codemirror-next/language"
+import {EditorView, themeClass} from "@observablehq/codemirror-next/view"
+import {Decoration, DecorationSet} from "@observablehq/codemirror-next/view"
 import {Tree, SyntaxNode, NodeType, NodeProp} from "lezer-tree"
 
 interface Config {

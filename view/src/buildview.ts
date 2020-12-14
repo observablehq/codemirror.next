@@ -1,8 +1,8 @@
-import {SpanIterator, RangeSet} from "@codemirror/next/rangeset"
+import {SpanIterator, RangeSet} from "@observablehq/codemirror-next/rangeset"
 import {DecorationSet, Decoration, PointDecoration, LineDecoration, MarkDecoration, BlockType, WidgetType} from "./decoration"
 import {BlockView, LineView, BlockWidgetView} from "./blockview"
 import {InlineView, WidgetView, TextView, MarkView} from "./inlineview"
-import {Text, TextIterator} from "@codemirror/next/text"
+import {Text, TextIterator} from "@observablehq/codemirror-next/text"
 
 export class ContentBuilder implements SpanIterator<Decoration> {
   content: BlockView[] = []

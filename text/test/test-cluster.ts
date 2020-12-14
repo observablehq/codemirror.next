@@ -1,4 +1,4 @@
-import {nextClusterBreak, countColumn, findColumn} from "@codemirror/next/text"
+import {nextClusterBreak, countColumn, findColumn} from "@observablehq/codemirror-next/text"
 import ist from "ist"
 
 describe("nextClusterBreak", () => {

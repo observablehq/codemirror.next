@@ -1,9 +1,9 @@
-import {EditorView, KeyBinding} from "@codemirror/next/view"
+import {EditorView, KeyBinding} from "@observablehq/codemirror-next/view"
 import {EditorState, EditorSelection, Transaction, Extension,
-        StateCommand, StateField, StateEffect, MapMode, CharCategory} from "@codemirror/next/state"
-import {RangeSet, RangeValue} from "@codemirror/next/rangeset"
-import {Text, codePointAt, fromCodePoint, codePointSize} from "@codemirror/next/text"
-import {syntaxTree} from "@codemirror/next/language"
+        StateCommand, StateField, StateEffect, MapMode, CharCategory} from "@observablehq/codemirror-next/state"
+import {RangeSet, RangeValue} from "@observablehq/codemirror-next/rangeset"
+import {Text, codePointAt, fromCodePoint, codePointSize} from "@observablehq/codemirror-next/text"
+import {syntaxTree} from "@observablehq/codemirror-next/language"
 
 /// Configures bracket closing behavior for a syntax (via
 /// [language data](#state.EditorState.languageDataAt)) using the `"closeBrackets"`

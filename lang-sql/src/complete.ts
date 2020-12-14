@@ -1,6 +1,6 @@
-import {Completion, CompletionContext, CompletionSource, completeFromList, ifNotIn} from "@codemirror/next/autocomplete"
-import {EditorState} from "@codemirror/next/state"
-import {syntaxTree} from "@codemirror/next/language"
+import {Completion, CompletionContext, CompletionSource, completeFromList, ifNotIn} from "@observablehq/codemirror-next/autocomplete"
+import {EditorState} from "@observablehq/codemirror-next/state"
+import {syntaxTree} from "@observablehq/codemirror-next/language"
 import {SyntaxNode} from "lezer"
 import {Type} from "./sql.grammar.terms"
 

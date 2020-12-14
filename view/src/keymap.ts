@@ -1,7 +1,7 @@
 import {EditorView} from "./editorview"
 import {Command} from "./extension"
 import {base, keyName} from "w3c-keyname"
-import {Facet} from "@codemirror/next/state"
+import {Facet} from "@observablehq/codemirror-next/state"
 
 /// Key bindings associate key names with
 /// [command](#view.Command)-style functions.

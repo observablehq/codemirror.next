@@ -1,8 +1,8 @@
 import {parser} from "lezer-javascript"
-import {LezerLanguage, flatIndent, continuedIndent, indentNodeProp, foldNodeProp, delimitedIndent} from "@codemirror/next/language"
-import {styleTags, tags as t} from "@codemirror/next/highlight"
-import {completeSnippets} from "@codemirror/next/autocomplete"
-import {Extension} from "@codemirror/next/state"
+import {LezerLanguage, flatIndent, continuedIndent, indentNodeProp, foldNodeProp, delimitedIndent} from "@observablehq/codemirror-next/language"
+import {styleTags, tags as t} from "@observablehq/codemirror-next/highlight"
+import {completeSnippets} from "@observablehq/codemirror-next/autocomplete"
+import {Extension} from "@observablehq/codemirror-next/state"
 import {snippets} from "./snippets"
 
 /// A language provider based on the [Lezer JavaScript

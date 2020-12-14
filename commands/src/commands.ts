@@ -1,10 +1,10 @@
 import {EditorState, StateCommand, EditorSelection, SelectionRange,
-        ChangeSpec, Transaction, CharCategory} from "@codemirror/next/state"
-import {Text, Line, countColumn, codePointAt, codePointSize} from "@codemirror/next/text"
-import {EditorView, Command, Direction, KeyBinding} from "@codemirror/next/view"
-import {matchBrackets} from "@codemirror/next/matchbrackets"
+        ChangeSpec, Transaction, CharCategory} from "@observablehq/codemirror-next/state"
+import {Text, Line, countColumn, codePointAt, codePointSize} from "@observablehq/codemirror-next/text"
+import {EditorView, Command, Direction, KeyBinding} from "@observablehq/codemirror-next/view"
+import {matchBrackets} from "@observablehq/codemirror-next/matchbrackets"
 import {syntaxTree, IndentContext, getIndentUnit, indentUnit, indentString,
-        getIndentation} from "@codemirror/next/language"
+        getIndentation} from "@observablehq/codemirror-next/language"
 import {SyntaxNode, NodeProp} from "lezer-tree"
 
 function updateSel(sel: EditorSelection, by: (range: SelectionRange) => SelectionRange) {

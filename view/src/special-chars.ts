@@ -1,9 +1,9 @@
 import {Decoration, DecorationSet, WidgetType} from "./decoration"
-import {Range} from "@codemirror/next/rangeset"
+import {Range} from "@observablehq/codemirror-next/rangeset"
 import {ViewPlugin, ViewUpdate} from "./extension"
 import {EditorView} from "./editorview"
-import {combineConfig, Facet, Extension} from "@codemirror/next/state"
-import {countColumn, codePointAt} from "@codemirror/next/text"
+import {combineConfig, Facet, Extension} from "@observablehq/codemirror-next/state"
+import {countColumn, codePointAt} from "@observablehq/codemirror-next/text"
 import {StyleModule} from "style-mod"
 
 interface SpecialCharConfig {

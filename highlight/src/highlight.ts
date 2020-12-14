@@ -1,9 +1,9 @@
 import {Tree, NodeProp} from "lezer-tree"
 import {StyleSpec, StyleModule} from "style-mod"
-import {EditorView, ViewPlugin, ViewUpdate, Decoration, DecorationSet} from "@codemirror/next/view"
-import {Extension, precedence, Facet} from "@codemirror/next/state"
-import {Language} from "@codemirror/next/language"
-import {RangeSetBuilder} from "@codemirror/next/rangeset"
+import {EditorView, ViewPlugin, ViewUpdate, Decoration, DecorationSet} from "@observablehq/codemirror-next/view"
+import {Extension, precedence, Facet} from "@observablehq/codemirror-next/state"
+import {Language} from "@observablehq/codemirror-next/language"
+import {RangeSetBuilder} from "@observablehq/codemirror-next/rangeset"
 
 let nextTagID = 0
 

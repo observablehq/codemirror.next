@@ -1,5 +1,5 @@
-import {Line} from "@codemirror/next/text"
-import {EditorSelection, SelectionRange} from "@codemirror/next/state"
+import {Line} from "@observablehq/codemirror-next/text"
+import {EditorSelection, SelectionRange} from "@observablehq/codemirror-next/state"
 
 /// Used to indicate [text direction](#view.EditorView.textDirection).
 export enum Direction {

@@ -1,5 +1,5 @@
 import {CompletionSource} from "./completion"
-import {Facet, combineConfig} from "@codemirror/next/state"
+import {Facet, combineConfig} from "@observablehq/codemirror-next/state"
 
 export interface CompletionConfig {
   /// When enabled (defaults to true), autocompletion will start

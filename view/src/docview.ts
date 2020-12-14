@@ -1,5 +1,5 @@
-import {RangeSet} from "@codemirror/next/rangeset"
-import {ChangeSet, Transaction} from "@codemirror/next/state"
+import {RangeSet} from "@observablehq/codemirror-next/rangeset"
+import {ChangeSet, Transaction} from "@observablehq/codemirror-next/state"
 import {ContentView, ChildCursor, Dirty, DOMPos} from "./contentview"
 import {BlockView, LineView} from "./blockview"
 import {InlineView, CompositionView} from "./inlineview"

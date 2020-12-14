@@ -1,6 +1,6 @@
 import {combineConfig, EditorState, Transaction, StateField, StateCommand, StateEffect,
-        Facet, Annotation, Extension, ChangeSet, ChangeDesc, EditorSelection} from "@codemirror/next/state"
-import {KeyBinding} from "@codemirror/next/view"
+        Facet, Annotation, Extension, ChangeSet, ChangeDesc, EditorSelection} from "@observablehq/codemirror-next/state"
+import {KeyBinding} from "@observablehq/codemirror-next/view"
 
 const enum BranchName { Done, Undone }
 

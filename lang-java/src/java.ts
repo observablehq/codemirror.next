@@ -1,7 +1,7 @@
 import {parser} from "lezer-java"
-import {flatIndent, continuedIndent, indentNodeProp, foldNodeProp, LezerLanguage} from "@codemirror/next/language"
-import {styleTags, tags as t} from "@codemirror/next/highlight"
-import {Extension} from "@codemirror/next/state"
+import {flatIndent, continuedIndent, indentNodeProp, foldNodeProp, LezerLanguage} from "@observablehq/codemirror-next/language"
+import {styleTags, tags as t} from "@observablehq/codemirror-next/highlight"
+import {Extension} from "@observablehq/codemirror-next/state"
 
 /// A language provider based on the [Lezer Java
 /// parser](https://github.com/lezer-parser/java), extended with

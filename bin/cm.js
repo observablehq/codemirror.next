@@ -201,7 +201,7 @@ function release() {
   let currentVersion = packageJSON.version
   let changes = changelog(currentVersion)
   let newVersion = bumpVersion(currentVersion, changes)
-  console.log(`Creating @codemirror/next ${newVersion}`)
+  console.log(`Creating @observablehq/codemirror-next ${newVersion}`)
 
   let notes = releaseNotes(changes, newVersion)
 
@@ -215,7 +215,7 @@ function release() {
 }
 
 function ensureSelfLink() {
-  let parent = path.join(root, "node_modules", "@codemirror"), link = path.join(parent, "next")
+  let parent = path.join(root, "node_modules", "@observablehq"), link = path.join(parent, "codemirror-next")
   if (!fs.existsSync(link)) {
     fs.mkdirSync(parent, {recursive: true})
     fs.symlinkSync("../..", link, "junction")

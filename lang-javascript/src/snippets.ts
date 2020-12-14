@@ -1,4 +1,4 @@
-import {SnippetSpec} from "@codemirror/next/autocomplete"
+import {SnippetSpec} from "@observablehq/codemirror-next/autocomplete"
 
 /// A collection of JavaScript-related
 /// [snippets](#autocomplete.snippet).

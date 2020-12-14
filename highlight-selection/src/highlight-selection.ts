@@ -1,6 +1,6 @@
-import {EditorView, ViewPlugin, Decoration, DecorationSet, ViewUpdate, themeClass} from "@codemirror/next/view"
-import {Facet, combineConfig, Text, Extension, CharCategory} from "@codemirror/next/state"
-import {SearchCursor} from "@codemirror/next/search"
+import {EditorView, ViewPlugin, Decoration, DecorationSet, ViewUpdate, themeClass} from "@observablehq/codemirror-next/view"
+import {Facet, combineConfig, Text, Extension, CharCategory} from "@observablehq/codemirror-next/state"
+import {SearchCursor} from "@observablehq/codemirror-next/search"
 
 /// Mark lines that have a cursor on them with the \`$activeLine\`
 /// theme class.

@@ -1,5 +1,5 @@
-import {MapMode} from "@codemirror/next/state"
-import {RangeValue, Range, RangeSet} from "@codemirror/next/rangeset"
+import {MapMode} from "@observablehq/codemirror-next/state"
+import {RangeValue, Range, RangeSet} from "@observablehq/codemirror-next/rangeset"
 import {WidgetView} from "./inlineview"
 import {attrsEq, Attrs} from "./attributes"
 import {EditorView} from "./editorview"

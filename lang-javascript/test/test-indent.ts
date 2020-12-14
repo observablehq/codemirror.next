@@ -1,7 +1,7 @@
 import ist from "ist"
-import {EditorState} from "@codemirror/next/state"
-import {getIndentation} from "@codemirror/next/language"
-import {javascriptLanguage} from "@codemirror/next/lang-javascript"
+import {EditorState} from "@observablehq/codemirror-next/state"
+import {getIndentation} from "@observablehq/codemirror-next/language"
+import {javascriptLanguage} from "@observablehq/codemirror-next/lang-javascript"
 
 function check(code: string) {
   return () => {

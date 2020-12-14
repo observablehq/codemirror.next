@@ -1,7 +1,7 @@
-import {Diagnostic} from "@codemirror/next/lint"
-import {Text, EditorState} from "@codemirror/next/state"
-import {EditorView} from "@codemirror/next/view"
-import {language} from "@codemirror/next/language"
+import {Diagnostic} from "@observablehq/codemirror-next/lint"
+import {Text, EditorState} from "@observablehq/codemirror-next/state"
+import {EditorView} from "@observablehq/codemirror-next/view"
+import {language} from "@observablehq/codemirror-next/language"
 import {javascriptLanguage} from "./javascript"
 
 /// Connects an [ESLint](https://eslint.org/) linter to CodeMirror's

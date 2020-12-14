@@ -1,6 +1,6 @@
-import {panels, Panel, getPanel, showPanel} from "@codemirror/next/panel"
-import {EditorSelection} from "@codemirror/next/state"
-import {EditorView, Command, themeClass, KeyBinding} from "@codemirror/next/view"
+import {panels, Panel, getPanel, showPanel} from "@observablehq/codemirror-next/panel"
+import {EditorSelection} from "@observablehq/codemirror-next/state"
+import {EditorView, Command, themeClass, KeyBinding} from "@observablehq/codemirror-next/view"
 
 const extTag = typeof Symbol == "undefined" ? "__goto-line" : Symbol("goto-line")
 

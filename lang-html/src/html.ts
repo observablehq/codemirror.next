@@ -1,10 +1,10 @@
 import {parser, configureNesting} from "lezer-html"
-import {cssLanguage} from "@codemirror/next/lang-css"
-import {javascriptLanguage, javascriptSupport} from "@codemirror/next/lang-javascript"
-import {LezerLanguage, delimitedIndent, continuedIndent, indentNodeProp, foldNodeProp} from "@codemirror/next/language"
-import {styleTags, tags as t} from "@codemirror/next/highlight"
+import {cssLanguage} from "@observablehq/codemirror-next/lang-css"
+import {javascriptLanguage, javascriptSupport} from "@observablehq/codemirror-next/lang-javascript"
+import {LezerLanguage, delimitedIndent, continuedIndent, indentNodeProp, foldNodeProp} from "@observablehq/codemirror-next/language"
+import {styleTags, tags as t} from "@observablehq/codemirror-next/highlight"
 import {completeHTML} from "./complete"
-import {Extension} from "@codemirror/next/state"
+import {Extension} from "@observablehq/codemirror-next/state"
 
 /// A language provider based on the [Lezer HTML
 /// parser](https://github.com/lezer-parser/html), wired up with the

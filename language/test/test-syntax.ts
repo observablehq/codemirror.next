@@ -1,6 +1,6 @@
 import ist from "ist"
-import {getIndentUnit, indentString, indentUnit, EditorParseContext} from "@codemirror/next/language"
-import {EditorState, ChangeSet, Text} from "@codemirror/next/state"
+import {getIndentUnit, indentString, indentUnit, EditorParseContext} from "@observablehq/codemirror-next/language"
+import {EditorState, ChangeSet, Text} from "@observablehq/codemirror-next/state"
 import {parser} from "lezer-javascript"
 import {Tree} from "lezer-tree"
 

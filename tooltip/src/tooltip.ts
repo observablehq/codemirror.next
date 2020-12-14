@@ -1,5 +1,5 @@
-import {EditorView, ViewPlugin, ViewUpdate, themeClass, Direction} from "@codemirror/next/view"
-import {StateEffect, StateEffectType, Facet, StateField, Extension, MapMode} from "@codemirror/next/state"
+import {EditorView, ViewPlugin, ViewUpdate, themeClass, Direction} from "@observablehq/codemirror-next/view"
+import {StateEffect, StateEffectType, Facet, StateField, Extension, MapMode} from "@observablehq/codemirror-next/state"
 
 type Rect = {left: number, right: number, top: number, bottom: number}
 

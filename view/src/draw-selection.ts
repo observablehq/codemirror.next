@@ -1,4 +1,4 @@
-import {EditorSelection, SelectionRange, Extension, Facet, combineConfig, precedence} from "@codemirror/next/state"
+import {EditorSelection, SelectionRange, Extension, Facet, combineConfig, precedence} from "@observablehq/codemirror-next/state"
 import {ViewPlugin, ViewUpdate} from "./extension"
 import {EditorView} from "./editorview"
 import {themeClass} from "./theme"

@@ -1,4 +1,4 @@
-import {Facet} from "@codemirror/next/state"
+import {Facet} from "@observablehq/codemirror-next/state"
 import {StyleModule, StyleSpec} from "style-mod"
 
 export const theme = Facet.define<string, string>({combine: strs => strs.join(" ")})

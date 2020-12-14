@@ -1,8 +1,8 @@
 import {parser} from "lezer-css"
 import {SyntaxNode} from "lezer-tree"
-import {LezerLanguage, continuedIndent, indentNodeProp, foldNodeProp} from "@codemirror/next/language"
-import {styleTags, tags as t} from "@codemirror/next/highlight"
-import {Extension} from "@codemirror/next/state"
+import {LezerLanguage, continuedIndent, indentNodeProp, foldNodeProp} from "@observablehq/codemirror-next/language"
+import {styleTags, tags as t} from "@observablehq/codemirror-next/highlight"
+import {Extension} from "@observablehq/codemirror-next/state"
 
 /// A language provider based on the [Lezer CSS
 /// parser](https://github.com/lezer-parser/css), extended with

@@ -1,4 +1,4 @@
-import {StreamLanguage, StringStream} from "@codemirror/next/stream-parser"
+import {StreamLanguage, StringStream} from "@observablehq/codemirror-next/stream-parser"
 
 class ParseState {
   constructor(public inString = false,

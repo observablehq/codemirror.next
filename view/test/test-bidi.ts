@@ -1,6 +1,6 @@
 import ist from "ist"
-import {__test, BidiSpan, Direction} from "@codemirror/next/view"
-import {Text, EditorSelection} from "@codemirror/next/state"
+import {__test, BidiSpan, Direction} from "@observablehq/codemirror-next/view"
+import {Text, EditorSelection} from "@observablehq/codemirror-next/state"
 
 function queryBrowserOrder(strings: readonly string[]) {
   let scratch = document.body.appendChild(document.createElement("div"))

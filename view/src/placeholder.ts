@@ -1,4 +1,4 @@
-import {Extension} from "@codemirror/next/state"
+import {Extension} from "@observablehq/codemirror-next/state"
 import {ViewPlugin} from "./extension"
 import {Decoration, DecorationSet, WidgetType} from "./decoration"
 import {EditorView} from "./editorview"

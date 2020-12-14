@@ -2,11 +2,11 @@ import {Tree, SyntaxNode, ChangedRange, TreeFragment, NodeProp, Input, PartialPa
 // NOTE: This package should only use _types_ from "lezer", to avoid
 // pulling in that dependency when no actual Lezer-based parser is used.
 import {Parser, ParserConfig} from "lezer"
-import {Text, TextIterator} from "@codemirror/next/text"
+import {Text, TextIterator} from "@observablehq/codemirror-next/text"
 import {EditorState, StateField, Transaction, Extension, StateEffect, StateEffectType,
-        Facet, ChangeDesc} from "@codemirror/next/state"
-import {ViewPlugin, ViewUpdate, EditorView} from "@codemirror/next/view"
-import {treeHighlighter} from "@codemirror/next/highlight"
+        Facet, ChangeDesc} from "@observablehq/codemirror-next/state"
+import {ViewPlugin, ViewUpdate, EditorView} from "@observablehq/codemirror-next/view"
+import {treeHighlighter} from "@observablehq/codemirror-next/highlight"
 
 /// The facet used to associate a language with an editor state.
 export const language = Facet.define<Language>()

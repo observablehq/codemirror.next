@@ -1,9 +1,9 @@
 import {EditorView, ViewPlugin, ViewUpdate, Command, Decoration, DecorationSet, themeClass,
-        runScopeHandlers, KeyBinding} from "@codemirror/next/view"
-import {StateField, StateEffect, EditorSelection, SelectionRange, StateCommand, precedence} from "@codemirror/next/state"
-import {panels, Panel, showPanel, getPanel} from "@codemirror/next/panel"
-import {Text} from "@codemirror/next/text"
-import {RangeSetBuilder} from "@codemirror/next/rangeset"
+        runScopeHandlers, KeyBinding} from "@observablehq/codemirror-next/view"
+import {StateField, StateEffect, EditorSelection, SelectionRange, StateCommand, precedence} from "@observablehq/codemirror-next/state"
+import {panels, Panel, showPanel, getPanel} from "@observablehq/codemirror-next/panel"
+import {Text} from "@observablehq/codemirror-next/text"
+import {RangeSetBuilder} from "@observablehq/codemirror-next/rangeset"
 import {SearchCursor} from "./cursor"
 export {SearchCursor}
 

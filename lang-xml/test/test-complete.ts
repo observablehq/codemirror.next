@@ -1,6 +1,6 @@
-import {EditorState} from "@codemirror/next/state"
-import {CompletionContext, CompletionResult, CompletionSource} from "@codemirror/next/autocomplete"
-import {xml, XMLConfig} from "@codemirror/next/lang-xml"
+import {EditorState} from "@observablehq/codemirror-next/state"
+import {CompletionContext, CompletionResult, CompletionSource} from "@observablehq/codemirror-next/autocomplete"
+import {xml, XMLConfig} from "@observablehq/codemirror-next/lang-xml"
 import ist from "ist"
 
 function get(doc: string, config?: XMLConfig, explicit = true) {

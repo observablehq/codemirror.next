@@ -1,6 +1,6 @@
-import {Completion, CompletionSource} from "@codemirror/next/autocomplete"
-import {EditorState, Text} from "@codemirror/next/state"
-import {syntaxTree} from "@codemirror/next/language"
+import {Completion, CompletionSource} from "@observablehq/codemirror-next/autocomplete"
+import {EditorState, Text} from "@observablehq/codemirror-next/state"
+import {syntaxTree} from "@observablehq/codemirror-next/language"
 import {SyntaxNode} from "lezer-tree"
 
 /// Describes an element in your XML document schema.

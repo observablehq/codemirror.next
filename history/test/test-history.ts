@@ -1,9 +1,9 @@
 import ist from "ist"
 
 import {EditorState, EditorSelection, Transaction,
-        StateEffect, StateEffectType, StateField, ChangeDesc} from "@codemirror/next/state"
+        StateEffect, StateEffectType, StateField, ChangeDesc} from "@observablehq/codemirror-next/state"
 import {isolateHistory, history, redo, redoDepth, redoSelection, undo, undoDepth,
-        undoSelection, invertedEffects} from "@codemirror/next/history"
+        undoSelection, invertedEffects} from "@observablehq/codemirror-next/history"
 
 function mkState(config?: any, doc?: string) {
   return EditorState.create({

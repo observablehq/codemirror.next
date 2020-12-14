@@ -1,8 +1,8 @@
 import {EditorView, ViewPlugin, Decoration, DecorationSet,
-        WidgetType, ViewUpdate, Command, themeClass, logException, KeyBinding} from "@codemirror/next/view"
-import {StateEffect, StateField, Extension, TransactionSpec, EditorState} from "@codemirror/next/state"
-import {hoverTooltip} from "@codemirror/next/tooltip"
-import {panels, Panel, showPanel, getPanel} from "@codemirror/next/panel"
+        WidgetType, ViewUpdate, Command, themeClass, logException, KeyBinding} from "@observablehq/codemirror-next/view"
+import {StateEffect, StateField, Extension, TransactionSpec, EditorState} from "@observablehq/codemirror-next/state"
+import {hoverTooltip} from "@observablehq/codemirror-next/tooltip"
+import {panels, Panel, showPanel, getPanel} from "@observablehq/codemirror-next/panel"
 
 /// Describes a problem or hint for a piece of code.
 export interface Diagnostic {

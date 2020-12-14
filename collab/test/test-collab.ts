@@ -1,7 +1,7 @@
-import {EditorState, Transaction, StateField, StateEffect, Extension, ChangeDesc} from "@codemirror/next/state"
-import {history, undo, redo, isolateHistory} from "@codemirror/next/history"
+import {EditorState, Transaction, StateField, StateEffect, Extension, ChangeDesc} from "@observablehq/codemirror-next/state"
+import {history, undo, redo, isolateHistory} from "@observablehq/codemirror-next/history"
 import ist from "ist"
-import {collab, receiveUpdates, sendableUpdates, Update, getClientID, getSyncedVersion} from "@codemirror/next/collab"
+import {collab, receiveUpdates, sendableUpdates, Update, getClientID, getSyncedVersion} from "@observablehq/codemirror-next/collab"
 
 class DummyServer {
   states: EditorState[] = []

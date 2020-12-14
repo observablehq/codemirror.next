@@ -1,8 +1,8 @@
 import {parser} from "lezer-json"
-import {continuedIndent, indentNodeProp, foldNodeProp, LezerLanguage} from "@codemirror/next/language"
-import {Extension} from "@codemirror/next/state"
+import {continuedIndent, indentNodeProp, foldNodeProp, LezerLanguage} from "@observablehq/codemirror-next/language"
+import {Extension} from "@observablehq/codemirror-next/state"
 import {SyntaxNode} from "lezer-tree"
-import {styleTags, tags as t} from "@codemirror/next/highlight"
+import {styleTags, tags as t} from "@observablehq/codemirror-next/highlight"
 
 export {jsonParseLinter} from "./lint"
 

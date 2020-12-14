@@ -1,7 +1,7 @@
 import {parser} from "lezer-xml"
-import {continuedIndent, delimitedIndent, indentNodeProp, foldNodeProp, LezerLanguage} from "@codemirror/next/language"
-import {styleTags, tags as t} from "@codemirror/next/highlight"
-import {Extension} from "@codemirror/next/state"
+import {continuedIndent, delimitedIndent, indentNodeProp, foldNodeProp, LezerLanguage} from "@observablehq/codemirror-next/language"
+import {styleTags, tags as t} from "@observablehq/codemirror-next/highlight"
+import {Extension} from "@observablehq/codemirror-next/state"
 import {ElementSpec, AttrSpec, completeFromSchema} from "./complete"
 
 /// A language provider based on the [Lezer XML

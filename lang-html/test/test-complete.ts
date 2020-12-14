@@ -1,6 +1,6 @@
-import {EditorState} from "@codemirror/next/state"
-import {CompletionContext, CompletionResult, CompletionSource} from "@codemirror/next/autocomplete"
-import {html} from "@codemirror/next/lang-html"
+import {EditorState} from "@observablehq/codemirror-next/state"
+import {CompletionContext, CompletionResult, CompletionSource} from "@observablehq/codemirror-next/autocomplete"
+import {html} from "@observablehq/codemirror-next/lang-html"
 import ist from "ist"
 
 function get(doc: string, conf: {explicit?: boolean} = {}) {

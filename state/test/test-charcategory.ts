@@ -1,4 +1,4 @@
-import {EditorState, Extension, CharCategory} from "@codemirror/next/state"
+import {EditorState, Extension, CharCategory} from "@observablehq/codemirror-next/state"
 import ist from "ist"
 
 function mk(...extensions: Extension[]) {

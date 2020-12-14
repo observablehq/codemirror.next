@@ -10,7 +10,7 @@ export {drawSelection} from "./draw-selection"
 export {highlightSpecialChars} from "./special-chars"
 export {placeholder} from "./placeholder"
 export {Rect} from "./dom"
-export {Range} from "@codemirror/next/rangeset"
+export {Range} from "@observablehq/codemirror-next/rangeset"
 
 import {HeightMap, HeightOracle, MeasuredHeights, QueryType} from "./heightmap"
 import {ChangedRange} from "./extension"
