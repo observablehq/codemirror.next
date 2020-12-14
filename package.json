@@ -97,5 +97,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/codemirror/codemirror.next.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
